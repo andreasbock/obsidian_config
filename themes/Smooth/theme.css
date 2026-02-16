@@ -1031,7 +1031,7 @@ hr {
 /* change margins, default is 32 */
 body {
     & {
-        --file-margins: 10px;
+        --file-margins: 25px;
     }
     & .mod-stacked {
         --file-margins: 10px;
@@ -1337,13 +1337,14 @@ body {
     }
 }
 
-/* more italic */
+/* more italic 
 .smooth-italics {
         em, .cm-em {
             display: inline-block;
             transform: skew(-10deg);
         }
 }
+*/
 
 /* this unifies spacing in LP and reading (DV in LP is viewed as if it was reading) */
 .markdown-rendered {
